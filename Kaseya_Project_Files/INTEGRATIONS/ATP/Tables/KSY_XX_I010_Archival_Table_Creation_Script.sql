@@ -1,0 +1,8 @@
+--Script to create archive table for staging table--
+--Date Wednesday 17-SEP-2025-------------------------
+create table XXINT.XXINT_GL_I001_JOURNALS_STG_ARC as select * from XXINT.XXINT_GL_I001_JOURNALS_STG where 1=0;
+create table XXINT.XXINT_GL_I003_ADP_JOURNALS_STG_ARC as select * from XXINT.XXINT_GL_I003_ADP_JOURNALS_STG where 1=0;
+create table XXINT.XXINT_GL_I008_CONCUR_ACC_JOURNALS_STG_ARC as select * from XXINT.XXINT_GL_I008_CONCUR_ACC_JOURNALS_STG where 1=0;
+create table XXINT.XXINT_AP_I017_KYRIBA_PAYMENTS_ACK_STG_ARC as select * from XXINT.XXINT_AP_I017_KYRIBA_PAYMENTS_ACK_STG where 1=0;
+create table XXINT.XXINT_GL_I018_CONCUR_JOURNALS_STG_ARC as select * from XXINT.XXINT_GL_I018_CONCUR_JOURNALS_STG where 1=0;
+create table XXINT.XXINT_GL_I020_KYRIBA_JOURNALS_STG_ARC as select * from XXINT.XXINT_GL_I020_KYRIBA_JOURNALS_STG where 1=0;

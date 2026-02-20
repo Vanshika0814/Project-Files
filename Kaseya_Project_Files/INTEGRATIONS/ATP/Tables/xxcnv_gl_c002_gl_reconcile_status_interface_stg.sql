@@ -1,0 +1,41 @@
+DROP TABLE xxcnv.xxcnv_gl_c002_gl_reconcile_status_interface_stg;
+CREATE TABLE xxcnv.xxcnv_gl_c002_gl_reconcile_status_interface_stg
+(
+OIC_INSTANCE_ID        VARCHAR2(200) 
+,CONVERSION_ID          VARCHAR2(200) 
+,ITERATION_NUMBER       VARCHAR2(200) 
+,JOURNAL_NAME           VARCHAR2(200) 
+,PERIOD_NAME            VARCHAR2(200) 
+,LEDGER_NAME            VARCHAR2(200) 
+,CATEGORY_NAME          VARCHAR2(200) 
+,SUBSIDIARY_NAME        VARCHAR2(200) 
+,BATCH_NAME             VARCHAR2(200) 
+,S_LINE_COUNT           VARCHAR2(200) 
+,S_JOURNAL_COUNT        VARCHAR2(200) 
+,S_SUM_ENTERED_CR       VARCHAR2(200) 
+,S_SUM_ENTERED_DR       VARCHAR2(200) 
+,S_SUM_ACCT_CR          VARCHAR2(200) 
+,S_SUM_ACCT_DR          VARCHAR2(200) 
+,T_LINE_COUNT           VARCHAR2(200) 
+,T_JOURNAL_COUNT        VARCHAR2(200) 
+,T_SUM_ENTERED_CR       VARCHAR2(200) 
+,T_SUM_ENTERED_DR       VARCHAR2(200) 
+,T_SUM_ACCT_CR          VARCHAR2(200) 
+,T_SUM_ACCT_DR          VARCHAR2(200) 
+,R_LINE_COUNT           VARCHAR2(200) 
+,R_JOURNAL_COUNT        VARCHAR2(200) 
+,R_SUM_ENTERED_CR       VARCHAR2(200) 
+,R_SUM_ENTERED_DR       VARCHAR2(200) 
+,R_SUM_ACCT_CR          VARCHAR2(200) 
+,R_SUM_ACCT_DR          VARCHAR2(200) 
+,STATUS                 VARCHAR2(200) 
+,ERROR_MESSAGE          VARCHAR2(200) 
+,CREATED_BY             VARCHAR2(200) 
+,CREATION_DATE          VARCHAR2(200) 
+,LAST_UPDATED_BY        VARCHAR2(200) 
+,LAST_UPDATE_DATE       VARCHAR2(200) 
+);
+
+
+  GRANT SELECT ON "XXCNV"."xxcnv_gl_c002_gl_reconcile_status_interface_stg" TO "XXCNV_RUN";
+  GRANT SELECT ON "XXCNV"."xxcnv_gl_c002_gl_reconcile_status_interface_stg" TO "XXRO";

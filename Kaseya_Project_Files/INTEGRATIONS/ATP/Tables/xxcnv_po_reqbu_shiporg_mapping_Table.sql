@@ -1,0 +1,5 @@
+CREATE TABLE XXCNV.xxcnv_po_reqbu_shiporg_mapping (
+OC_REQUISITION_BU         VARCHAR2(50) ,
+OC_SHIP_TO_ORG_CODE       VARCHAR2(50) ,
+OS_SUB_INVENTORY          VARCHAR2(30) 
+)

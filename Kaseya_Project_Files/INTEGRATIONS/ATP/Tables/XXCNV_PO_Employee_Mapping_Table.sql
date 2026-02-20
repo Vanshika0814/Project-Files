@@ -1,0 +1,4 @@
+CREATE TABLE XXCNV.XXCNV_PO_Employee_Mapping (
+EMP_ID         VARCHAR2(25) ,
+EMP_NAME       VARCHAR2(70)  
+)
