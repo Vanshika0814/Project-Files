@@ -1,0 +1,88 @@
+<html>
+<head>
+  <style>
+    #CallPaaSBuild {
+      color: #000000;
+      border-color: #c4ced7;
+      background-color: #f1f3f3;
+      border-radius: 3px;
+      border: 1px solid #c4ced7;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      min-height: 28px;
+      margin-left: 20px;
+      padding: 4px 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<input type="hidden" id="poValue" value="#{bindings.PoHeaderId.inputValue}" />
+
+<button id="CallPaaSBuild"
+        style="#{(bindings.DocumentStatus.inputValue eq 'Pending Approval' or bindings.DocumentStatus.inputValue eq 'Finally Closed' or bindings.DocumentStatus.inputValue eq 'Canceled') ? 'display:none;' : ''}">
+  Generate USD Amount
+</button>
+
+<script type="text/javascript">
+window.addEventListener('load', function () {
+  try {
+    const button = document.getElementById('CallPaaSBuild');
+
+    if (button) {
+      button.addEventListener('click', function (event) {
+        event.preventDefault();
+        runReport();
+      });
+    }
+
+    // Removed the delay auto-click
+    const poVal = document.getElementById('poValue')?.value;
+    const navEntry = performance.getEntriesByType("navigation")[0];
+    const isNewNavigation = navEntry && navEntry.type === "navigate";
+
+    if (poVal && isNewNavigation) {
+      console.log("Auto-clicking for PO:", poVal);
+      button.click();
+    } else {
+      console.log("No PO value yet or not a fresh navigation.");
+    }
+
+  } catch (e) {
+    console.log('Error during setup:', e);
+  }
+
+  function runReport() {
+    try {
+      const poNumber = document.getElementById("poValue").value;
+
+      const reportUrl = window.location.origin +
+        "/xmlpserver/Custom/Kaseya_Custom/SCM/Extensions/PO/Reports/KSY_PO_E006_OC2OC_PO_Currency_Conversion_Report.xdo?_xpt=0&_xdo=%2FCustom%2FKaseya_Custom%2FSCM%2FExtensions%2FPO%2FReports%2FKSY_PO_E006_OC2OC_PO_Currency_Conversion_Report.xdo&_xmode=4&p_po_header_id=" +
+        poNumber +"?nocache="+Date.now()+"&_xf=html";
+
+      console.log("Opening report:", reportUrl);
+
+      const popup = window.open(
+        reportUrl,
+        'popupWindow',
+        'width=600,height=200,left=200,top=200,resizable=yes,scrollbars=yes'
+      );
+  popup.location.reload(true); 
+
+      // Auto-close logic commented
+      /*if (popup) {
+        setTimeout(() => {
+          popup.close();
+        }, 10000);
+      }*/
+    } catch (error) {
+      alert("Exception occurred while running report.");
+    }
+  }
+});
+</script>
+
+</body>
+</html>
