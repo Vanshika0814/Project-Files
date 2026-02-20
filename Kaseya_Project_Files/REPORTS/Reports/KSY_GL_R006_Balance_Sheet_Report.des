@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<EXPORT>
+    <DATASOURCE APPNAME="KASEYA_GLOBAL_COA_INST" DATASOURCE_ID="26032e79_19636d02b9f_6e50" DATASOURCE_NAME="Kaseya Global COA" DBNAME="db" SERVER="Essbase_FA_Cluster" TYPE="Essbase"/>
+    <DESIGN DESIGNNAME="/shared/Custom/Kaseya_Custom/FIN/Reports/FRS/Reports/KSY_GL_R006_Balance_Sheet_Report" REPORT_DESCRIPTION="" REPORT_FOOTER_HEIGHT="720" REPORT_HEADER_HEIGHT="720" REPORT_HEIGHT="15840" REPORT_ORIENTATION="22131" REPORT_PAPER_FORMAT="22093" REPORT_PRINT_BOTTOM_MARGIN="357.1653543310" REPORT_PRINT_LEFT_MARGIN="357.1653543310" REPORT_PRINT_ORIENTATION="22131" REPORT_PRINT_PAGE_SIZE="22091" REPORT_PRINT_RIGHT_MARGIN="357.1653543310" REPORT_PRINT_TOP_MARGIN="357.1653543310" REPORT_UNITS="22121" REPORT_WIDTH="12240" VERSION="7.0">
+        <LAYOUT NAME="Header"/>
+        <LAYOUT NAME="Detail">
+            <GRIDOBJECT ALIASTABLE="Default" COLUMN_COUNT="2" DATASOURCE_DETAILS="Kaseya Global COA:Essbase_FA_Cluster:KASEYA_GLOBAL_COA_INST:db:Essbase" DATASOURCE_ID="26032e79_19636d02b9f_6e50" DRILL_FUSION_FINANCIALS="1" GRID_ALLOW_EXPANDALL="1" NAME="\\\Grid1" OBJECT_HEIGHT="8175" OBJECT_LEFT="510" OBJECT_TOP="285" OBJECT_WIDTH="10110" PAGE_PAGEBREAK="1" ROW_COUNT="60" SUPPRESSION_ERROR="0" SUPPRESSION_NODATA="0" SUPPRESSION_ZEROVALUES="0" SUPPRESS_TEXT_ERRORS="1" VERSION="2.5">
+                <ROW_PROP ROW="0"/>
+                <ROW_PROP ROW="1"/>
+                <ROW_PROP ROW="2"/>
+                <ROW_PROP ROW="3"/>
+                <ROW_PROP ROW="4" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="5" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="6" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="7" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="8" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="9" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="10" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="11" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="12" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="13" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="14" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="15" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="16" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="17" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="18" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="19" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="20" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="21" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="22" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="23" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="24" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="25" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="26" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="27" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="28" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="29" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="30" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="31" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="32" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="33" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="34" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="35" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="36" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="37" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="38" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="39" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="40" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="41" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="42" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="43" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="44" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="45" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="46" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="47" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="48" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="49" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="50" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="51" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="52" SUPPRESSION="-1"/>
+                <ROW_PROP HIDE_ALWAYS="1" ROW="53" SUPPRESSION="-1"/>
+                <ROW_PROP HIDE_ALWAYS="1" ROW="54" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="55" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="56" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="57" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="58" SUPPRESSION="-1"/>
+                <ROW_PROP ROW="59" SUPPRESSION="-1"/>
+                <COL_PROP COL="0" WIDTH="349"/>
+                <COL_PROP COL="1" SUPPRESSION="-1" WIDTH="87"/>
+                <CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="2" INDEX="0" NUM_GRP_SYBL_PREF="1" NUM_THOU_SEP="&lt;empty&gt;"/>
+                <CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" INDEX="1" NUM_GRP_SYBL_PREF="1"/>
+                <CELL_STYLE FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" INDEX="2" NUM_GRP_SYBL_PREF="1"/>
+                <CELL_STYLE BORDER_BOTTOM="3" BORDER_TOP="1" FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" INDENT="2" INDEX="3" NUM_GRP_SYBL_PREF="1"/>
+                <CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" INDENT="2" INDEX="4" NUM_GRP_SYBL_PREF="1" NUM_NEG_PREFIX="&lt;empty&gt;"/>
+                <CELL_STYLE BORDER_TOP="1" FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" INDENT="4" INDEX="5" NUM_GRP_SYBL_PREF="1"/>
+                <CELL_STYLE FONT_BOLD="1" FONT_COLOR="5789784" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="9" INDEX="6" NUM_GRP_SYBL_PREF="1"/>
+                <CELL_STYLE FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="10" INDEX="7" NUM_GRP_SYBL_PREF="1"/>
+                <CELL_STYLE BORDER_BOTTOM="1" BORDER_TOP="1" FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="2" INDEX="8" NUM_GRP_SYBL_PREF="1"/>
+                <CELL_STYLE BORDER_BOTTOM="1" BORDER_TOP="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="2" INDEX="9" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")"/>
+                <CELL_STYLE BORDER_TOP="1" FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" INDENT="4" INDEX="10" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")" NUM_SCALE_BY="1000.0"/>
+                <CELL_STYLE BORDER_BOTTOM="3" BORDER_TOP="1" FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" INDEX="11" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")" NUM_SCALE_BY="1000.0"/>
+                <CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" INDENT="2" INDEX="12" NUM_GRP_SYBL_PREF="1"/>
+                <CELL_STYLE BORDER_BOTTOM="3" BORDER_TOP="1" FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" INDEX="13" NUM_GRP_SYBL_PREF="1"/>
+                <CELL_STYLE BORDER_TOP="1" FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" INDEX="14" NUM_GRP_SYBL_PREF="1"/>
+                <CELL_STYLE BORDER_BOTTOM="1" BORDER_TOP="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" INDENT="2" INDEX="15" NUM_GRP_SYBL_PREF="1"/>
+                <CELL_STYLE FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="2" INDEX="16" NUM_GRP_SYBL_PREF="1"/>
+                <CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" INDEX="17" NUM_GRP_SYBL_PREF="1" NUM_NEG_PREFIX="&lt;empty&gt;"/>
+                <CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="2" INDEX="18" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")"/>
+                <CELL_STYLE BORDER_TOP="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="2" INDEX="19" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")"/>
+                <CELL_STYLE BORDER_BOTTOM="3" BORDER_TOP="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="2" INDEX="20" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")"/>
+                <CELL_STYLE BORDER_BOTTOM="3" BORDER_TOP="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="2" INDEX="21" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")"/>
+                <CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="2" INDEX="22" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")"/>
+                <STYLE_IDX COL_IDX="7,16" ROW="0"/>
+                <STYLE_IDX COL_IDX="6,16" ROW="1"/>
+                <STYLE_IDX COL_IDX="1,16" ROW="2"/>
+                <STYLE_IDX COL_IDX="1,8" ROW="3"/>
+                <STYLE_IDX COL_IDX="1,0" ROW="4"/>
+                <STYLE_IDX COL_IDX="2,0" ROW="5"/>
+                <STYLE_IDX COL_IDX="1,0" ROW="6"/>
+                <STYLE_IDX COL_IDX="4,18" ROW="7"/>
+                <STYLE_IDX COL_IDX="4,18" ROW="8"/>
+                <STYLE_IDX COL_IDX="4,18" ROW="9"/>
+                <STYLE_IDX COL_IDX="4,18" ROW="10"/>
+                <STYLE_IDX COL_IDX="4,18" ROW="11"/>
+                <STYLE_IDX COL_IDX="4,18" ROW="12"/>
+                <STYLE_IDX COL_IDX="10,19" ROW="13"/>
+                <STYLE_IDX COL_IDX="1,18" ROW="14"/>
+                <STYLE_IDX COL_IDX="1,18" ROW="15"/>
+                <STYLE_IDX COL_IDX="1,18" ROW="16"/>
+                <STYLE_IDX COL_IDX="1,18" ROW="17"/>
+                <STYLE_IDX COL_IDX="1,18" ROW="18"/>
+                <STYLE_IDX COL_IDX="1,18" ROW="19"/>
+                <STYLE_IDX COL_IDX="11,20" ROW="20"/>
+                <STYLE_IDX COL_IDX="2,0" ROW="21"/>
+                <STYLE_IDX COL_IDX="2,0" ROW="22"/>
+                <STYLE_IDX COL_IDX="1,0" ROW="23"/>
+                <STYLE_IDX COL_IDX="12,18" ROW="24"/>
+                <STYLE_IDX COL_IDX="12,18" ROW="25"/>
+                <STYLE_IDX COL_IDX="12,18" ROW="26"/>
+                <STYLE_IDX COL_IDX="12,18" ROW="27"/>
+                <STYLE_IDX COL_IDX="12,18" ROW="28"/>
+                <STYLE_IDX COL_IDX="12,18" ROW="29"/>
+                <STYLE_IDX COL_IDX="12,18" ROW="30"/>
+                <STYLE_IDX COL_IDX="5,19" ROW="31"/>
+                <STYLE_IDX COL_IDX="1,18" ROW="32"/>
+                <STYLE_IDX COL_IDX="1,18" ROW="33"/>
+                <STYLE_IDX COL_IDX="1,18" ROW="34"/>
+                <STYLE_IDX COL_IDX="1,18" ROW="35"/>
+                <STYLE_IDX COL_IDX="1,18" ROW="36"/>
+                <STYLE_IDX COL_IDX="1,18" ROW="37"/>
+                <STYLE_IDX COL_IDX="13,20" ROW="38"/>
+                <STYLE_IDX COL_IDX="2,0" ROW="39"/>
+                <STYLE_IDX COL_IDX="12,18" ROW="40"/>
+                <STYLE_IDX COL_IDX="12,18" ROW="41"/>
+                <STYLE_IDX COL_IDX="14,19" ROW="42"/>
+                <STYLE_IDX COL_IDX="2,0" ROW="43"/>
+                <STYLE_IDX COL_IDX="12,22" ROW="44"/>
+                <STYLE_IDX COL_IDX="12,22" ROW="45"/>
+                <STYLE_IDX COL_IDX="12,22" ROW="46"/>
+                <STYLE_IDX COL_IDX="12,22" ROW="47"/>
+                <STYLE_IDX COL_IDX="12,22" ROW="48"/>
+                <STYLE_IDX COL_IDX="12,22" ROW="49"/>
+                <STYLE_IDX COL_IDX="12,22" ROW="50"/>
+                <STYLE_IDX COL_IDX="12,22" ROW="51"/>
+                <STYLE_IDX COL_IDX="15,9" ROW="52"/>
+                <STYLE_IDX COL_IDX="1,22" ROW="53"/>
+                <STYLE_IDX COL_IDX="1,22" ROW="54"/>
+                <STYLE_IDX COL_IDX="17,22" ROW="55"/>
+                <STYLE_IDX COL_IDX="3,21" ROW="56"/>
+                <STYLE_IDX COL_IDX="2,22" ROW="57"/>
+                <STYLE_IDX COL_IDX="2,0" ROW="58"/>
+                <STYLE_IDX COL_IDX="2,18" ROW="59"/>
+                <GRIDMATRIX>
+                    <GRIDCELL COLUMN="-1" ROW="1" TYPE="0">
+                        <GRIDSEGMENT SEGMENT_TYPE="2">
+                            <DERIVEDEXPRESSION VALUE="ASSETS"/>
+                        </GRIDSEGMENT>
+                    </GRIDCELL>
+                    <GRIDCELL COLUMN="-1" ROW="2" TYPE="0">
+                        <GRIDSEGMENT SEGMENT_TYPE="2">
+                            <DERIVEDEXPRESSION VALUE="CURRENT ASSETS:"/>
+                        </GRIDSEGMENT>
+                    </GRIDCELL>
+                    <GRIDCELL COLUMN="-1" ROW="18" TYPE="0">
+                        <GRIDSEGMENT SEGMENT_TYPE="2">
+                            <DERIVEDEXPRESSION VALUE="LIABILITIES AND SHAREHOLDERS'/MEMBERS' DEFICIT"/>
+                        </GRIDSEGMENT>
+                    </GRIDCELL>
+                    <GRIDCELL COLUMN="-1" ROW="19" TYPE="0">
+                        <GRIDSEGMENT SEGMENT_TYPE="2">
+                            <DERIVEDEXPRESSION VALUE="CURRENT LIABILITIES:"/>
+                        </GRIDSEGMENT>
+                    </GRIDCELL>
+                    <GRIDCELL CALC_ORDER="3" COLUMN="0" ROW="9" TYPE="1">
+                        <GRIDSEGMENT SEGMENT_TYPE="1">
+                            <DERIVEDEXPRESSION VALUE="Sum([4:9])"/>
+                        </GRIDSEGMENT>
+                    </GRIDCELL>
+                    <GRIDCELL CALC_ORDER="3" COLUMN="0" ROW="16" TYPE="1">
+                        <GRIDSEGMENT SEGMENT_TYPE="1">
+                            <DERIVEDEXPRESSION VALUE="Sum([10:16])"/>
+                        </GRIDSEGMENT>
+                    </GRIDCELL>
+                    <GRIDCELL CALC_ORDER="3" COLUMN="0" ROW="27" TYPE="1">
+                        <GRIDSEGMENT SEGMENT_TYPE="1">
+                            <DERIVEDEXPRESSION VALUE="Sum([21:27])"/>
+                        </GRIDSEGMENT>
+                    </GRIDCELL>
+                    <GRIDCELL CALC_ORDER="3" COLUMN="0" ROW="34" TYPE="1">
+                        <GRIDSEGMENT SEGMENT_TYPE="1">
+                            <DERIVEDEXPRESSION VALUE="Sum([28:34])"/>
+                        </GRIDSEGMENT>
+                    </GRIDCELL>
+                    <GRIDCELL COLUMN="-1" ROW="35" TYPE="0">
+                        <GRIDSEGMENT SEGMENT_TYPE="2">
+                            <DERIVEDEXPRESSION VALUE="MEZZANINE EQUITY"/>
+                        </GRIDSEGMENT>
+                    </GRIDCELL>
+                    <GRIDCELL CALC_ORDER="3" COLUMN="0" ROW="38" TYPE="1">
+                        <GRIDSEGMENT SEGMENT_TYPE="1">
+                            <DERIVEDEXPRESSION VALUE="Sum([37:38])"/>
+                        </GRIDSEGMENT>
+                    </GRIDCELL>
+                    <GRIDCELL COLUMN="-1" ROW="39" TYPE="0">
+                        <GRIDSEGMENT SEGMENT_TYPE="2">
+                            <DERIVEDEXPRESSION VALUE="SHAREHOLDERS' / MEMBERS' DEFICIT:"/>
+                        </GRIDSEGMENT>
+                    </GRIDCELL>
+                    <GRIDCELL CALC_ORDER="3" COLUMN="0" ROW="48" TYPE="1">
+                        <GRIDSEGMENT SEGMENT_TYPE="1">
+                            <DERIVEDEXPRESSION VALUE="Sum([47:48])"/>
+                        </GRIDSEGMENT>
+                    </GRIDCELL>
+                    <GRIDCELL CALC_ORDER="3" COLUMN="0" ROW="52" TYPE="1">
+                        <GRIDSEGMENT SEGMENT_TYPE="1">
+                            <DERIVEDEXPRESSION VALUE="Row[35]+Row[39]+Row[52]"/>
+                        </GRIDSEGMENT>
+                    </GRIDCELL>
+                    <GRIDCELL CALC_ORDER="3" COLUMN="-1" ROW="-4" TYPE="1">
+                        <GRIDSEGMENT SEGMENT_TYPE="1">
+                            <DERIVEDEXPRESSION VALUE="GAAP BS"/>
+                        </GRIDSEGMENT>
+                    </GRIDCELL>
+                </GRIDMATRIX>
+                <GRIDAXIS AXISNAME="Row" MAX_SEGMENT_ID="60">
+                    <GRIDLAYER DIMENSIONNAME="Account"/>
+                    <GRIDSEGMENT ID="3" SEGMENT_TYPE="2">
+                        <DERIVEDEXPRESSION VALUE="@TEXT"/>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="4" SEGMENT_TYPE="2">
+                        <DERIVEDEXPRESSION VALUE="@TEXT"/>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="5" SEGMENT_TYPE="2">
+                        <DERIVEDEXPRESSION VALUE="@TEXT"/>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="9">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-CASHXX,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="8">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-ARNETX,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="7">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-INVENT,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="6">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-UNBILL,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="23">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-STCOMS,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="1">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-STASST,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="10" SEGMENT_TYPE="1">
+                        <DERIVEDEXPRESSION HEADING="Total Current Assets"/>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="12">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-PPENET,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="24">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-UNBILT,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="25">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-ROUAST,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="26">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-INTANG,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="27">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-GOWILL,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="11">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-OLTAST,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="13" SEGMENT_TYPE="1">
+                        <DERIVEDEXPRESSION HEADING="TOTAL ASSETS"/>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="14" SEGMENT_TYPE="2">
+                        <DERIVEDEXPRESSION VALUE="@TEXT"/>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="15" SEGMENT_TYPE="2">
+                        <DERIVEDEXPRESSION VALUE="@TEXT"/>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="16" SEGMENT_TYPE="2">
+                        <DERIVEDEXPRESSION VALUE="@TEXT"/>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="20">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-ACTPAY,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="19">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-ACCEXP,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="28">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-ACCINT,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="29">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-DREVST,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="30">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-ACQREL,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="31">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-ROUST,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="17">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-NOPAST,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="21" SEGMENT_TYPE="1">
+                        <DERIVEDEXPRESSION HEADING="Total Current Liabilities"/>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="32">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-NOPALT,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="33">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-DREVLT,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="34">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-ROULT,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="35">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-DTLLT,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="36">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-OLTLIA,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="22">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-EMBEDD,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="37" SEGMENT_TYPE="1">
+                        <DERIVEDEXPRESSION HEADING="TOTAL LIABILITIES"/>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="38" SEGMENT_TYPE="2">
+                        <DERIVEDEXPRESSION VALUE="@TEXT"/>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="39">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-CONTIN,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="40">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-NCNTRL,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="41" SEGMENT_TYPE="1">
+                        <DERIVEDEXPRESSION HEADING="TOTAL MEZZANINE EQUITY"/>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="42" SEGMENT_TYPE="2">
+                        <DERIVEDEXPRESSION VALUE="@TEXT"/>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="43">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-CSTOCK,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="44">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-APICXX,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="45">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-TSTOCK,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="46">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-CTAXXX,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="47">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-INTERC,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="48">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-INVSUB,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="49">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-RETEAR,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="50">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION HEADING="Retained Earnings - Current" HEADTYPE="4" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-INCSTM,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="51" SEGMENT_TYPE="1">
+                        <DERIVEDEXPRESSION HEADING="Accumulated Deficit"/>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="58">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-SHAEQU,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="52">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION EXPANSION_OUTLINE="1" HEADTYPE="2" VALUE="SELECT &quot;*&quot; FROM &quot;Account&quot; WHERE Member(&quot;4-INCSTM,3E0868C46D8863D0E0634E90500A7D7D&quot;, &quot;Account&quot;) "/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="59" SEGMENT_TYPE="1">
+                        <DERIVEDEXPRESSION HEADING="TOTAL SHAREHOLDERS' / MEMBERS' DEFICIT" VALUE="ROW[50]+ROW[51]"/>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="53" SEGMENT_TYPE="1">
+                        <DERIVEDEXPRESSION HEADING="TOTAL LIABILITIES AND SHAREHOLDERS' / MEMBERS' DEFICIT" VALUE="Row[35]+Row[39]+Row[52]"/>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="54" SEGMENT_TYPE="1">
+                        <DERIVEDEXPRESSION HEADING="Check" VALUE="Row[17]+Row[53]"/>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="56" SEGMENT_TYPE="2">
+                        <DERIVEDEXPRESSION VALUE="@TEXT"/>
+                    </GRIDSEGMENT>
+                    <GRIDSEGMENT ID="55" SEGMENT_TYPE="1">
+                        <DERIVEDEXPRESSION HEADING="Working Capital" VALUE="Row[10]+Row[28]"/>
+                    </GRIDSEGMENT>
+                </GRIDAXIS>
+                <GRIDAXIS AXISNAME="Column" MAX_SEGMENT_ID="8">
+                    <GRIDLAYER DIMENSIONNAME="Ledger"/>
+                    <GRIDLAYER DIMENSIONNAME="Company"/>
+                    <GRIDLAYER DIMENSIONNAME="Currency"/>
+                    <GRIDLAYER DIMENSIONNAME="AccountingPeriod"/>
+                    <GRIDSEGMENT ID="5">
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION HEADTYPE="17" VALUE="SELECT * FROM &quot;Ledger&quot; WHERE Member(&quot;begin-prompt;title=Enter Ledger;default=;choices=;headtype=1;end-prompt&quot;, &quot;Ledger&quot;)"/>
+                        </SEGMENTLAYER>
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION HEADTYPE="17" VALUE="SELECT * FROM &quot;Company&quot; WHERE Member(&quot;begin-prompt;title=Enter Company;default=SELECT &quot;*&quot; FROM &quot;Company&quot; WHERE Member(&quot;All Company Values&quot;, &quot;Company&quot;) ;choices=;headtype=1;end-prompt&quot;, &quot;Company&quot;)"/>
+                        </SEGMENTLAYER>
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION HEADTYPE="17" VALUE="SELECT * FROM &quot;Currency&quot; WHERE Member(&quot;begin-prompt;title=Enter Currency;default=;choices=;headtype=1;end-prompt&quot;, &quot;Currency&quot;)"/>
+                        </SEGMENTLAYER>
+                        <SEGMENTLAYER>
+                            <METADATAEXPRESSION HEADTYPE="17" VALUE="SELECT * FROM &quot;AccountingPeriod&quot; WHERE Member(&quot;begin-prompt;title=Enter AccountingPeriod;default=;choices=;headtype=1;end-prompt&quot;, &quot;AccountingPeriod&quot;)"/>
+                        </SEGMENTLAYER>
+                    </GRIDSEGMENT>
+                </GRIDAXIS>
+                <GRIDAXIS AXISNAME="Page" MAX_SEGMENT_ID="-1"/>
+                <POV ALIASTABLE="Default" DATASOURCE_ID="26032e79_19636d02b9f_6e50" DIMCOUNT="17" ORGBYPERIOD_ENABLED="0" ORGBYPERIOD_PERIOD="" ORGBYPERIOD_SCENARIO="" ORGBYPERIOD_YEAR="" REFRESH_DESC="0" RELATEDCONTENT_CHANGE="0" SHOW_ALIAS="0" SHOW_DIMNAME="1" SHOW_MEMBERDESC="0" SHOW_MEMBERNAME="1" VERSION="7.3">
+                    <DIMENSION DISABLED="0" HIDDEN="1" NAME="AccountingPeriod"/>
+                    <DIMENSION DISABLED="0" HIDDEN="1" NAME="Ledger"/>
+                    <DIMENSION DISABLED="0" HIDDEN="1" NAME="Company"/>
+                    <DIMENSION DISABLED="0" HIDDEN="0" NAME="Division">
+                        <METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Division&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;User Point of View for Division&lt;/STRING&gt;&lt;STRING&gt;Division&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+                    </DIMENSION>
+                    <DIMENSION DISABLED="0" HIDDEN="0" NAME="Cost Center">
+                        <METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Cost Center&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;User Point of View for Cost Center&lt;/STRING&gt;&lt;STRING&gt;Cost Center&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+                    </DIMENSION>
+                    <DIMENSION DISABLED="0" HIDDEN="1" NAME="Account"/>
+                    <DIMENSION DISABLED="0" HIDDEN="0" NAME="Product Line">
+                        <METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Product Line&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;User Point of View for Product Line&lt;/STRING&gt;&lt;STRING&gt;Product Line&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+                    </DIMENSION>
+                    <DIMENSION DISABLED="0" HIDDEN="0" NAME="Location">
+                        <METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Location&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;User Point of View for Location&lt;/STRING&gt;&lt;STRING&gt;Location&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+                    </DIMENSION>
+                    <DIMENSION DISABLED="0" HIDDEN="0" NAME="Intercompany">
+                        <METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Intercompany&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;User Point of View for Intercompany&lt;/STRING&gt;&lt;STRING&gt;Intercompany&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+                    </DIMENSION>
+                    <DIMENSION DISABLED="0" HIDDEN="0" NAME="Future1">
+                        <METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Future1&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;User Point of View for Future1&lt;/STRING&gt;&lt;STRING&gt;Future1&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+                    </DIMENSION>
+                    <DIMENSION DISABLED="0" HIDDEN="0" NAME="Future2">
+                        <METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Future2&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;User Point of View for Future2&lt;/STRING&gt;&lt;STRING&gt;Future2&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+                    </DIMENSION>
+                    <DIMENSION DISABLED="0" HIDDEN="0" NAME="Future3">
+                        <METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Future3&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;User Point of View for Future3&lt;/STRING&gt;&lt;STRING&gt;Future3&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+                    </DIMENSION>
+                    <DIMENSION DISABLED="0" HIDDEN="0" NAME="Scenario">
+                        <METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Scenario&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;User Point of View for Scenario&lt;/STRING&gt;&lt;STRING&gt;Scenario&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+                    </DIMENSION>
+                    <DIMENSION DISABLED="0" HIDDEN="0" NAME="Balance Amount">
+                        <METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Balance Amount&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;User Point of View for Balance Amount&lt;/STRING&gt;&lt;STRING&gt;Balance Amount&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+                    </DIMENSION>
+                    <DIMENSION DISABLED="0" HIDDEN="0" NAME="Amount Type">
+                        <METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Amount Type&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;User Point of View for Amount Type&lt;/STRING&gt;&lt;STRING&gt;Amount Type&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+                    </DIMENSION>
+                    <DIMENSION DISABLED="0" HIDDEN="1" NAME="Currency"/>
+                    <DIMENSION DISABLED="0" HIDDEN="0" NAME="Currency Type">
+                        <METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Currency Type&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;User Point of View for Currency Type&lt;/STRING&gt;&lt;STRING&gt;Currency Type&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+                    </DIMENSION>
+                </POV>
+            </GRIDOBJECT>
+        </LAYOUT>
+        <LAYOUT NAME="Footer"/>
+    </DESIGN>
+</EXPORT>
